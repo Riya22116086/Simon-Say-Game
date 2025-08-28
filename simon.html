@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Say Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- //step1:kahi pr bhi key press karne pr game start ho jaye
+step 2:flash+levelup+h2 txt change ho
+step3:user koi button press karega to app userarray==gamearray hai ya nhi check karega phir agar true hai to levelup +flash  warna
+step4:warna game over or h2 ab score represent karega -->
+<body>
+    <h1>Simon Say Game</h1>
+    <h2>Press any key to start the game</h2>
+    <div class="btn-container">
+        <div class="line-one">  
+            <div class="btn red" type="button" id="red">1</div>
+         <div class="btn yellow" type="button" id="yellow">2</div>
+        </div>
+        
+       <div class="line-two">
+        <div class="btn green" type="button" id="green">3</div>
+           <div class="btn purple" type="button" type="purple">4</div>
+       </div>
+          
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
